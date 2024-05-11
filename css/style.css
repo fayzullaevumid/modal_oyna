@@ -1,0 +1,53 @@
+.form{
+    width: 300px;
+    height: 240px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    transform: translateY(-900px);
+    scale: 0;
+    text-align: center;
+    transition: 1s ease-out;
+}
+h2, p{
+    color: black;
+    text-align: center;
+}
+input{
+    width: 12rem;
+    border: 1px solid black;
+    height: 1.7rem;
+    outline: none;
+    margin: 0.5rem;
+}
+.button{
+    width: 5.2rem;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+.modal{
+    transform: translateY(70%);
+    scale: 1;
+    transition: 1s ease-out;
+}
+.open-js{
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: black;
+}
+.close-js{
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: red;
+    width: 7rem;
+}
+.modal-active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
